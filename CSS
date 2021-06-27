@@ -1,0 +1,155 @@
+aside{
+    width:6%;
+    height:100vh;
+    background: rgb(9, 5, 22);
+    position:absolute;
+    top: 0;
+    left: 0;
+  }
+  #icon_wrapper{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+  #icon1{
+      color: white;
+      font-size:26px; 
+      padding-top:3vh; 
+      transition:0.3s;
+    }
+  #icon1:hover{
+    font-size:32px;
+  }
+    #icon2{
+      color: white;
+      font-size:26px; 
+      padding-top:25vh; 
+      transition:0.3s;
+    }
+  #icon2:hover{
+    font-size:32px;
+   
+  }
+    #icon3{
+      color: white;
+      font-size:26px; 
+      padding-top:8vh; 
+      transition:0.3s;
+    }
+  #icon3:hover{
+    font-size:32px;
+  }
+    #icon4{
+      color: white;
+      font-size:26px; 
+      padding-top:8vh;
+      transition:0.3s;
+    }
+  #icon4:hover{
+    font-size:32px;
+  }
+    #icon5{
+      color: white;
+      font-size:26px;
+      padding-top:30vh;
+      transition:0.3s;
+    }
+  #icon5:hover{
+    font-size:32px;
+    }
+
+    /*Aside end*/
+
+  .sec{
+    width:94.4%;
+    height:100vh;
+    background: linear-gradient(90deg, white 42.2%, rgb(255, 255, 0) 42.2%);
+    margin-left: 5%;
+    position: absolute;
+    top:0;
+  }
+  h3{
+      font-size: 34px;
+      position: absolute;
+      top:-15px;
+      padding-left:25px ;
+  }
+  h3 span{
+      color: green;
+      font-size: 44px;
+      margin-left: -8px;
+  }
+  .text_wrapper h1{
+      font-size: 84px;
+      margin-top: 195px;
+      padding-left: 40px ;
+      text-shadow: 3px 3px 5px lightgray;
+  }
+  .text_wrapper p{
+      width: 32%;
+      padding-left: 30px;
+      color: gray;
+      opacity: 95%;
+      text-align: center;
+      margin-top: -6vh;
+  }
+  /*Text part done*/
+  .header{
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      position: absolute;
+      top:25px;
+      left:73%;
+  }
+  span{
+      padding: 10px;
+  }
+  span:hover{
+      text-decoration: underline;
+  }
+  img{
+      position: absolute;
+      top:20%;
+      left:59%;
+      border: 5px solid yellow;
+      border-radius: 20px;
+      width: 270px;
+      height: 290px;   
+  }
+  /*Header part done*/
+  .btn1{
+      width: 100px;
+      height: 30px;
+      background-color: rgb(245, 245, 31);
+      color: black;
+      text-align: center;
+      margin-top: 40px;
+      margin-left: 43px ;
+      padding-top: 13px;
+      border-radius: 5px;
+      font-weight: 900;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+      transition:0.3s;   
+  }
+  .btn1:hover{
+      letter-spacing: 2.5px;
+  }
+  .btn2{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-top: -44px;
+    margin-left: 195px ;
+    padding-top: 13px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    transition:0.3s;
+  }
+  .btn2:hover{
+      background-color: #ffff09;
+      letter-spacing: .5px;
+  }
